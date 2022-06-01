@@ -1,0 +1,3 @@
+SELECT * 
+FROM students 
+WHERE MONTH(dob) = MONTH(CURRENT_DATE());
